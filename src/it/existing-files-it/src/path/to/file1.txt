@@ -1,0 +1,2 @@
+This is a first file.
+Its content should be overriden.
