@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 # see https://coderwall.com/p/9b_lfq
 
 if [ "$TRAVIS_REPO_SLUG" == "olivierlemasle/plaintext-maven-plugin" ] && \
@@ -6,7 +9,7 @@ if [ "$TRAVIS_REPO_SLUG" == "olivierlemasle/plaintext-maven-plugin" ] && \
 
   echo -e "Publishing maven snapshot...\n"
 
-  mvn clean source:jar deploy --settings="build/settings.xml" -Dmaven.javadoc.skip=true
+  mvn clean source:jar deploy --settings="distribution/settings.xml" -Dmaven.javadoc.skip=true
 
   echo -e "Published maven snapshot"
 fi
