@@ -13,7 +13,7 @@ import java.nio.file.*;
 /**
  * Create plain text files with the provided lines, or append lines to existing files.
  */
-@Mojo(name = "write-files", defaultPhase = LifecyclePhase.GENERATE_RESOURCES)
+@Mojo(name = "write", defaultPhase = LifecyclePhase.GENERATE_RESOURCES)
 public final class PlainTextMojo extends AbstractMojo {
     private final FileSystem defaultFileSystem = FileSystems.getDefault();
 

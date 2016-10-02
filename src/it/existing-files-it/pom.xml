@@ -43,7 +43,7 @@
             <id>write</id>
             <phase>validate</phase>
             <goals>
-              <goal>write-files</goal>
+              <goal>write</goal>
             </goals>
           </execution>
         </executions>
