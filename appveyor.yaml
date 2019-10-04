@@ -1,4 +1,5 @@
 version: 1.0.0.{build}
 image: Previous Visual Studio 2017
+build: off
 test_script:
-  - cmd: mvn verify -B
+  - cmd: mvn clean verify -B

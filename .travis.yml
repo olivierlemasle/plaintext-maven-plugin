@@ -1,5 +1,5 @@
 language: java
-jdk: openjdk7
+jdk: openjdk8
 install: true
 script: mvn verify -B
 after_success: distribution/publish-snapshot.sh
