@@ -80,7 +80,7 @@ public class PlainTextMojoTest {
 
     @Test
     public void testCheck() throws Exception {
-        final FileSystem fs = Jimfs.newFileSystem();
+        final FileSystem fs = Jimfs.newFileSystem(Configuration.unix());
         try {
             final PlainTextFile f = new PlainTextFile(null, false, new ArrayList<String>());
             new PlainTextMojo().writeFile(f, fs);
@@ -98,7 +98,7 @@ public class PlainTextMojoTest {
     @Test
     public void testIoException() throws Exception {
         // Append to a non-empty directory instead of a file
-        final FileSystem fs = Jimfs.newFileSystem();
+        final FileSystem fs = Jimfs.newFileSystem(Configuration.unix());
         Files.createDirectories(fs.getPath("/path/dir"));
         Files.createFile(fs.getPath("/path/dir/file"));
 
