@@ -2,7 +2,7 @@ plaintext-maven-plugin
 ======================
 
 [![Build Status](https://travis-ci.org/olivierlemasle/plaintext-maven-plugin.svg?branch=master)](https://travis-ci.org/olivierlemasle/plaintext-maven-plugin)
-
+[![Build status](https://ci.appveyor.com/api/projects/status/ce47h0ag0v1idv8g/branch/master?svg=true)](https://ci.appveyor.com/project/olivierlemasle/plaintext-maven-plugin/branch/master)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.olivierlemasle.maven/plaintext-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.olivierlemasle.maven/plaintext-maven-plugin)
 
 Goals

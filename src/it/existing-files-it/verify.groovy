@@ -10,3 +10,8 @@ File file2 = new File( basedir, 'src/file2' );
 
 assert file2.isFile()
 assert file2.readLines() == ['Line 1', 'Line 2', 'New line']
+
+File file3 = new File( basedir, 'src/file3' );
+
+assert file3.isFile()
+assert file3.readLines() == ['Line 1']

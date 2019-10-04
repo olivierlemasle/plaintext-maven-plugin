@@ -36,6 +36,11 @@
                 <line>New line</line>
               </lines>
             </file>
+            <file>
+              <name>file3</name>
+              <append>true</append>
+              <lines />
+            </file>
           </files>
         </configuration>
         <executions>
